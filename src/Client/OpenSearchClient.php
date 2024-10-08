@@ -217,7 +217,7 @@ class OpenSearchClient extends OpenSearch
     {
         $query = '';
         if (version_compare(PHP_VERSION, '5.4.0', '>=')) {
-            $query = !empty($params) ? http_build_query($params, null, '&', PHP_QUERY_RFC3986) : '';
+            $query = !empty($params) ? http_build_query($params, '', '&', PHP_QUERY_RFC3986) : '';
         } else {
             $arg = '';
             foreach ($params as $key => $val) {

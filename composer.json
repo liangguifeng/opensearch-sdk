@@ -13,7 +13,7 @@
     }
   },
   "require": {
-    "php": ">=7.1",
+    "php": ">=7.4",
     "evert/phpdoc-md": "~0.2.0"
   },
   "suggest": {
