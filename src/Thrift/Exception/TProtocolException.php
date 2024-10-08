@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Exception;
+namespace OpenSearch\Thrift\Exception;
 
 /**
  * Protocol module. Contains all the types and definitions needed to implement

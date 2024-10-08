@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Server;
+namespace OpenSearch\Thrift\Server;
 
-use Thrift\Factory\TProtocolFactory;
-use Thrift\Factory\TTransportFactory;
+use OpenSearch\Thrift\Factory\TProtocolFactory;
+use OpenSearch\Thrift\Factory\TTransportFactory;
 
 /**
  * Generic class for a Thrift server.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol;
+namespace OpenSearch\Thrift\Protocol;
 
-use Thrift\Type\TMessageType;
+use OpenSearch\Thrift\Type\TMessageType;
 
 /**
  * <code>TMultiplexedProtocol</code> is a protocol-independent concrete decorator

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol\JSON;
+namespace OpenSearch\Thrift\Protocol\JSON;
 
 class LookaheadReader
 {

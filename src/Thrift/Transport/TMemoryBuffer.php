@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Transport;
+namespace OpenSearch\Thrift\Transport;
 
-use Thrift\Exception\TTransportException;
-use Thrift\Factory\TStringFuncFactory;
+use OpenSearch\Thrift\Exception\TTransportException;
+use OpenSearch\Thrift\Factory\TStringFuncFactory;
 
 /**
  * A memory buffer is a tranpsort that simply reads from and writes to an

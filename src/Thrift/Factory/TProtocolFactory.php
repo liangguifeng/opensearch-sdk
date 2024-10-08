@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Factory;
+namespace OpenSearch\Thrift\Factory;
 
 /**
  * Protocol factory creates protocol objects from transports.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Transport;
+namespace OpenSearch\Thrift\Transport;
 
-use Thrift\Factory\TStringFuncFactory;
+use OpenSearch\Thrift\Factory\TStringFuncFactory;
 
 /**
  * Buffered transport. Stores data to an internal buffer that it doesn't

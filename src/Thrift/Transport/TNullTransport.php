@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Transport;
+namespace OpenSearch\Thrift\Transport;
 
-use Thrift\Exception\TTransportException;
+use OpenSearch\Thrift\Exception\TTransportException;
 
 /**
  * Transport that only accepts writes and ignores them.

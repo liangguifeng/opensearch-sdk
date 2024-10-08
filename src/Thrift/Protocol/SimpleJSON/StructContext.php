@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol\SimpleJSON;
+namespace OpenSearch\Thrift\Protocol\SimpleJSON;
 
-use Thrift\Protocol\TSimpleJSONProtocol;
+use OpenSearch\Thrift\Protocol\TSimpleJSONProtocol;
 
 class StructContext extends Context
 {

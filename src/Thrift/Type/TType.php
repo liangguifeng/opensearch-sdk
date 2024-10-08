@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Type;
+namespace OpenSearch\Thrift\Type;
 
 /**
  * Data types that can be sent via Thrift.

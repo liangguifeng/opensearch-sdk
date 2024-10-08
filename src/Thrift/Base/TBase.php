@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Base;
+namespace OpenSearch\Thrift\Base;
 
-use Thrift\Type\TType;
+use OpenSearch\Thrift\Type\TType;
 
 /**
  * Base class from which other Thrift structs extend. This is so that we can

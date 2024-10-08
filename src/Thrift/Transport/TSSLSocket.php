@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Transport;
+namespace OpenSearch\Thrift\Transport;
 
-use Thrift\Exception\TException;
-use Thrift\Exception\TTransportException;
+use OpenSearch\Thrift\Exception\TException;
+use OpenSearch\Thrift\Exception\TTransportException;
 
 /**
  * Sockets implementation of the TTransport interface.

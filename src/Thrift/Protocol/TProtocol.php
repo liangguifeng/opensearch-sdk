@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol;
+namespace OpenSearch\Thrift\Protocol;
 
-use Thrift\Exception\TProtocolException;
-use Thrift\Type\TType;
+use OpenSearch\Thrift\Exception\TProtocolException;
+use OpenSearch\Thrift\Type\TType;
 
 /**
  * Protocol base class module.

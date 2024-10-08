@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol\SimpleJSON;
+namespace OpenSearch\Thrift\Protocol\SimpleJSON;
 
-use Thrift\Exception\TException;
+use OpenSearch\Thrift\Exception\TException;
 
 class CollectionMapKeyException extends TException
 {

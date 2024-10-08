@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Thrift;
 
-use Thrift\Exception\TException;
-use Thrift\Protocol\TMultiplexedProtocol;
-use Thrift\Protocol\TProtocol;
-use Thrift\Protocol\TProtocolDecorator;
-use Thrift\Type\TMessageType;
+use OpenSearch\Thrift\Exception\TException;
+use OpenSearch\Thrift\Protocol\TMultiplexedProtocol;
+use OpenSearch\Thrift\Protocol\TProtocol;
+use OpenSearch\Thrift\Protocol\TProtocolDecorator;
+use OpenSearch\Thrift\Type\TMessageType;
 
 /**
  * <code>TMultiplexedProcessor</code> is a Processor allowing

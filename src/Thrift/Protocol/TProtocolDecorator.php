@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol;
+namespace OpenSearch\Thrift\Protocol;
 
-use Thrift\Exception\TException;
+use OpenSearch\Thrift\Exception\TException;
 
 /**
  * <code>TProtocolDecorator</code> forwards all requests to an enclosed

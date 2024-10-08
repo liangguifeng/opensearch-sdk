@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Factory;
+namespace OpenSearch\Thrift\Factory;
 
-use Thrift\StringFunc\Core;
-use Thrift\StringFunc\Mbstring;
+use OpenSearch\Thrift\StringFunc\Core;
+use OpenSearch\Thrift\StringFunc\Mbstring;
 
 class TStringFuncFactory
 {

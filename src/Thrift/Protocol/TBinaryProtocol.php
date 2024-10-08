@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol;
+namespace OpenSearch\Thrift\Protocol;
 
-use Thrift\Exception\TProtocolException;
-use Thrift\Factory\TStringFuncFactory;
-use Thrift\Type\TType;
+use OpenSearch\Thrift\Exception\TProtocolException;
+use OpenSearch\Thrift\Factory\TStringFuncFactory;
+use OpenSearch\Thrift\Type\TType;
 
 /**
  * Binary implementation of the Thrift protocol.

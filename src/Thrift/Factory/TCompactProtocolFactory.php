@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Factory;
+namespace OpenSearch\Thrift\Factory;
 
-use Thrift\Protocol\TCompactProtocol;
+use OpenSearch\Thrift\Protocol\TCompactProtocol;
 
 /**
  * Compact Protocol Factory.

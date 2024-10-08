@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol\JSON;
+namespace OpenSearch\Thrift\Protocol\JSON;
 
-use Thrift\Protocol\TJSONProtocol;
+use OpenSearch\Thrift\Protocol\TJSONProtocol;
 
 class ListContext extends BaseContext
 {

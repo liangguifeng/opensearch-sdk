@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Serializer;
+namespace OpenSearch\Thrift\Serializer;
 
-use Thrift\Protocol\TBinaryProtocolAccelerated;
-use Thrift\Transport\TMemoryBuffer;
-use Thrift\Type\TMessageType;
+use OpenSearch\Thrift\Protocol\TBinaryProtocolAccelerated;
+use OpenSearch\Thrift\Transport\TMemoryBuffer;
+use OpenSearch\Thrift\Type\TMessageType;
 
 /**
  * Utility class for serializing and deserializing

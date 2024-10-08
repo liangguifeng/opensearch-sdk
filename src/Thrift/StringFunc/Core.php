@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Thrift\StringFunc;
+namespace OpenSearch\Thrift\StringFunc;
 
 class Core implements TStringFunc
 {

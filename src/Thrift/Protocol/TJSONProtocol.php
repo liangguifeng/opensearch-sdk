@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol;
+namespace OpenSearch\Thrift\Protocol;
 
-use Thrift\Exception\TProtocolException;
-use Thrift\Protocol\JSON\BaseContext;
-use Thrift\Protocol\JSON\ListContext;
-use Thrift\Protocol\JSON\LookaheadReader;
-use Thrift\Protocol\JSON\PairContext;
-use Thrift\Type\TType;
+use OpenSearch\Thrift\Exception\TProtocolException;
+use OpenSearch\Thrift\Protocol\JSON\BaseContext;
+use OpenSearch\Thrift\Protocol\JSON\ListContext;
+use OpenSearch\Thrift\Protocol\JSON\LookaheadReader;
+use OpenSearch\Thrift\Protocol\JSON\PairContext;
+use OpenSearch\Thrift\Type\TType;
 
 /**
  * JSON implementation of thrift protocol, ported from Java.

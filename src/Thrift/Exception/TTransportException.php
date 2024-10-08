@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Exception;
+namespace OpenSearch\Thrift\Exception;
 
 /**
  * Transport exceptions.

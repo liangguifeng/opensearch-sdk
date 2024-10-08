@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Transport;
+namespace OpenSearch\Thrift\Transport;
 
-use Thrift\Exception\TException;
+use OpenSearch\Thrift\Exception\TException;
 
 /*
  * This library makes use of APC cache to make hosts as down in a web

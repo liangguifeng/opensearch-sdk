@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol\SimpleJSON;
+namespace OpenSearch\Thrift\Protocol\SimpleJSON;
 
 class MapContext extends StructContext
 {

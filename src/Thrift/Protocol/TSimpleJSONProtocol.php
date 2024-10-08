@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol;
+namespace OpenSearch\Thrift\Protocol;
 
-use Thrift\Exception\TException;
-use Thrift\Protocol\SimpleJSON\CollectionMapKeyException;
-use Thrift\Protocol\SimpleJSON\Context;
-use Thrift\Protocol\SimpleJSON\ListContext;
-use Thrift\Protocol\SimpleJSON\MapContext;
-use Thrift\Protocol\SimpleJSON\StructContext;
+use OpenSearch\Thrift\Exception\TException;
+use OpenSearch\Thrift\Protocol\SimpleJSON\CollectionMapKeyException;
+use OpenSearch\Thrift\Protocol\SimpleJSON\Context;
+use OpenSearch\Thrift\Protocol\SimpleJSON\ListContext;
+use OpenSearch\Thrift\Protocol\SimpleJSON\MapContext;
+use OpenSearch\Thrift\Protocol\SimpleJSON\StructContext;
 
 /**
  * SimpleJSON implementation of thrift protocol, ported from Java.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Exception;
+namespace OpenSearch\Thrift\Exception;
 
-use Thrift\Type\TType;
+use OpenSearch\Thrift\Type\TType;
 
 class TApplicationException extends TException
 {

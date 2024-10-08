@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Server;
+namespace OpenSearch\Thrift\Server;
 
-use Thrift\Exception\TException;
-use Thrift\Exception\TTransportException;
-use Thrift\Transport\TTransport;
+use OpenSearch\Thrift\Exception\TException;
+use OpenSearch\Thrift\Exception\TTransportException;
+use OpenSearch\Thrift\Transport\TTransport;
 
 /**
  * A forking implementation of a Thrift server.

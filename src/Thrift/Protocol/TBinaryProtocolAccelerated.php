@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Protocol;
+namespace OpenSearch\Thrift\Protocol;
 
-use Thrift\Transport\TBufferedTransport;
+use OpenSearch\Thrift\Transport\TBufferedTransport;
 
 /**
  * Accelerated binary protocol: used in conjunction with the thrift_protocol

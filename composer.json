@@ -13,8 +13,12 @@
     }
   },
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.1",
     "evert/phpdoc-md": "~0.2.0"
+  },
+  "suggest": {
+    "ext-json": "Required to use JSON.",
+    "ext-curl": "Required to use Curl."
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.0",

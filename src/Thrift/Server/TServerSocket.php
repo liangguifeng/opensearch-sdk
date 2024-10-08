@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Server;
+namespace OpenSearch\Thrift\Server;
 
-use Thrift\Transport\TSocket;
+use OpenSearch\Thrift\Transport\TSocket;
 
 /**
  * Socket implementation of a server agent.

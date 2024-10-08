@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Exception;
+namespace OpenSearch\Thrift\Exception;
 
-use Thrift\Base\TBase;
-use Thrift\Type\TType;
+use OpenSearch\Thrift\Base\TBase;
+use OpenSearch\Thrift\Type\TType;
 
 /**
  * NOTE(mcslee): This currently contains a ton of duplicated code from TBase

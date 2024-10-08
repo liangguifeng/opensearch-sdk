@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Thrift\Server;
+namespace OpenSearch\Thrift\Server;
 
-use Thrift\Exception\TTransportException;
+use OpenSearch\Thrift\Exception\TTransportException;
 
 /**
  * Simple implemtation of a Thrift server.
