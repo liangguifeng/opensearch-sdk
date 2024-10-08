@@ -190,15 +190,15 @@ class SearchParamsBuilder
     /**
      * 添加搜索关键词。
      *
-     * @param String $query 设置的搜索关键词
-     * @param String $condition 两个过滤条件的连接符, 例如AND OR等。
-     * @return void
+     * @param string $query 设置的搜索关键词
+     * @param string $condition 两个过滤条件的连接符, 例如AND OR等
      */
-    public function setQuery($query, $condition = 'AND') {
+    public function setQuery($query, $condition = 'AND')
+    {
         if ($this->searchParams->query == null) {
             $this->searchParams->query = $query;
         } else {
-            $this->searchParams->query .= " {$condition} $query";
+            $this->searchParams->query .= " {$condition} {$query}";
         }
     }
 
